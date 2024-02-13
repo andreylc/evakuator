@@ -1,0 +1,37 @@
+.header {
+  margin-bottom: 20px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 5;
+  padding: 10px 0;
+  box-shadow: 0 0 10px rgba($color: #000000, $alpha: .25);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  img {
+    max-width: 170px;
+  }
+  a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.slogan {
+  font-size: 28px;
+  font-weight: 700;
+  span {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
